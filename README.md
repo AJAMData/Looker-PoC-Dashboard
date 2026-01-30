@@ -1,5 +1,6 @@
 Superstore Retail Insights Dashboard
 
+<img width="1588" height="813" alt="Superstore Pic 1" src="https://github.com/user-attachments/assets/c08e2e73-e4b3-4594-9edf-2f26e0590cd8" />
 
 
 PROJECT OVERVIEW
