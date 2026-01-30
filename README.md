@@ -3,7 +3,7 @@
 <img width="1588" height="813" alt="Superstore Pic 1" src="https://github.com/user-attachments/assets/c08e2e73-e4b3-4594-9edf-2f26e0590cd8" />
 
 
-PROJECT OVERVIEW
+**PROJECT OVERVIEW**
 
 Following my role as a Senior Data Analyst at Feefo, I developed this Looker dashboard as a portfolio project to demonstrate my proficiency within the Looker ecosystem. Using the classic Superstore dataset, this project serves as a comprehensive look at my ability to manage the full data lifecycle—from initial modeling in BigQuery to LookML development and final visualisation.
 
@@ -13,7 +13,7 @@ The primary objective was to evidence my understanding of Views, Explores, and t
 
 
 
-DATA SOURCE AND PROCESS
+**DATA SOURCE AND PROCESS**
 
 The project utilises the open-source Superstore dataset from Kaggle, which provides transactional retail records.
 
@@ -23,7 +23,7 @@ My process began with ingesting the raw CSV data into Google BigQuery to assess 
 
 
 
-TECHNICAL ARCHITECTURE
+**TECHNICAL ARCHITECTURE**
 
 I focused on several key LookML features to demonstrate senior-level technical proficiency:
 
@@ -39,7 +39,7 @@ I focused on several key LookML features to demonstrate senior-level technical p
 
 
 
-REPOSITORY STRUCTURE
+**REPOSITORY STRUCTURE**
 
 \* Views: Includes the .view files defining dimensions and measures for order facts and product/customer dimensions.
 
@@ -49,7 +49,7 @@ REPOSITORY STRUCTURE
 
 
 
-FUTURE IMPROVEMENTS
+**FUTURE IMPROVEMENTS**
 
 While this dashboard serves as a technical proof of concept, I have identified several strategic and technical areas for future iteration:
 
