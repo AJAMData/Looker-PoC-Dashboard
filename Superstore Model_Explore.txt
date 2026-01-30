@@ -1,0 +1,16 @@
+connection: "bigquery"
+include: "/views/base_view/superstore_combined_dimension.view.lkml"
+include: "/views/base_view/superstore_fact.view.lkml"
+#include: "/views/extended_view/*.view.lkml"
+#include: "/explores/*.explore.lkml"
+
+
+
+
+explore: superstore_fact {
+  join: superstore_combined_dimension {
+    type: left_outer
+    relationship: many_to_many
+    sql_on: ${superstore_combined_dimension.order_id} = ${superstore_fact.order_id};;
+  }
+}
